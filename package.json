@@ -1,0 +1,28 @@
+{
+  "name": "asteroides_peligrosos",
+  "version": "1.0.0",
+  "description": "Asteroides peligrosos que van a pasar cerca a la tierra en una fecha determinada por el usuario",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Remp31/Asteroides_NASA.git"
+  },
+  "keywords": [
+    "asteroises",
+    "nasa",
+    "peligro",
+    "tierra"
+  ],
+  "author": "Remp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Remp31/Asteroides_NASA/issues"
+  },
+  "homepage": "https://github.com/Remp31/Asteroides_NASA#readme",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}

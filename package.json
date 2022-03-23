@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Remp31/Asteroides_NASA#readme",
   "dependencies": {
-    "axios": "^0.26.1"
+    "axios": "^0.26.1",
+    "bootstrap": "^5.1.3"
   }
 }

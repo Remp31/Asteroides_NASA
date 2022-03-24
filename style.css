@@ -1,17 +1,17 @@
 body{
     position: absolute;
-    width: 1728px;
-    height: 1117px;
+    width: 100%;
+    height: 100%;
     left: -1px;
     top: 0px;
 
     background: #000000;
 }
-.fondo{
+.fondo1{
     position: absolute;
-    width: 1728px;
-    height: 3134px;
-    left: -1px;
+    width: 100%;
+    height: 100%;
+    left: -4px;
     top: -791px;
 
     border: 1px solid #000000;
@@ -21,34 +21,34 @@ body{
 
 .title{
     position: absolute;
-    width: 1728px;
-    height: 712px;
+    width: 100%;
+    height: 100%;
     left: -1px;
-    top: 36px;
+    top: -120px;
 }
 
 .vector_nasa{
     position: absolute;
-    width: 120px;
-    height: 160px;
-    left: 80px;
-    top: -8px;
+    width: 100px;
+    height: 140px;
+    left: 40px;
+    top: -12px;
 }
 
 .logo_nasa_vector{
     position: absolute;
     width: 78px;
     height: 72px;
-    left: 101px;
-    top: 23px;
+    left: 55px;
+    top: 10px;
 }
 
 .letter_menu{
     position: absolute;
     width: 128px;
     height: 53px;
-    left: 1489px;
-    top: -0.2%;
+    left: 1305px;
+    top: -2%;
 
     font-family: 'Caviar Dreams';
     font-style: normal;
@@ -69,20 +69,21 @@ body{
 
 .buscador{
     position: absolute;
-    width: 1728px;
-    height: 437px;
-    left: 0px;
-    top: 680px;
+    width: 100%;
+    height: 40%;
+    left: -4px;
+    top: 60%;
 
     background: rgba(155, 155, 155, 0.6);
+    opacity: 0.8;
 }
 
 .texto_buscador{
     position: absolute;
     width: 712px;
     height: 56px;
-    left: 508px;
-    top: 114px;
+    left: 430px;
+    top: 80px;
 
     font-family: 'Caviar Dreams';
     font-style: normal;
@@ -96,14 +97,15 @@ body{
 
 .busca{
     position: absolute;
-    width: 1480px;
-    height: 80px;
+    width: 80%;
+    height: 40px;
     left: 120px;
-    top: 160px;
+    top: 136px;
     text-align: center;
     font-size: 40px;
 
     background: rgba(239, 239, 239, 0.75);
+    border-color: rgba(239, 239, 239, 0.75);
 }
 
 .vector_busca{
@@ -118,8 +120,8 @@ body{
     position: absolute;
     width: 44px;
     height: 44px;
-    left: 1512px;
-    top: 180px;
+    left: 1295px;
+    top: 137px;
     background-color: white;
     opacity: 0.5;
     border-radius: 50%;
@@ -128,8 +130,8 @@ body{
 
 .num1{
     position: absolute;
-    width: 425px;
-    height: 156px;
+    width: 325px;
+    height: 110px;
     left: 52px;
     top: 0px;
 
@@ -139,10 +141,10 @@ body{
 
 .num2{
     position: absolute;
-    width: 425px;
-    height: 156px;
+    width: 325px;
+    height: 90px;
     left: 157px;
-    top: 160px;
+    top: 105px;
 
     color: #000000;
 
@@ -151,10 +153,10 @@ body{
 
 .num3{
     position: absolute;
-    width: 372px;
-    height: 169px;
+    width: 325px;
+    height: 110px;
     left: 265px;
-    top: 298px;
+    top: 196px;
 
     color: #000000;
 

@@ -29,10 +29,13 @@ function buscar_asteriodes() {
     
         let html = ""
         for(let i = 0; i<objects.length;i++) {
+        let row = i +1
         html += `<tr>
-                    <td>${objects[i].id}<td>
-                    <td>${objects[i].name}<td>
-                    <td>${objects[i].is_potentially_hazardous_asteroid}<td>
+                    <th scope="row">${row}</th>
+                    <td>${objects[i].id}</td>
+                    <td>${objects[i].name}</td>
+                    <td>${objects[i].is_potentially_hazardous_asteroid}</td>
+                    <td>${objects[i].absolute_magnitude_h}</td>
                 </tr>`
         }
         results_container.innerHTML = html

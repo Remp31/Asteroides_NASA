@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-
-    <title>Asteroides Nasa</title>
+    <!-- Fuentes Importadas -->
+    <script src="https://c.webfontfree.com/c.js?f=CaviarDreams" type="text/javascript"></script>
+    <!-- Fin Fuentes -->
+    <title>Asteroides Peligrosos para la Tierra</title>
     <link rel="stylesheet" href="/style.css">
     </head>
 
     <body>
-        <label>Inserta una fecha en el formato YYYY-mm-dd</label><br>
-        <input id="fecha"/> 
-        <button onclick="buscar_asteriodes()" >Buscar</button>   
-        <br><br>
-    
-        <table>
-            <thead>
-                <tr>
-                    <th>Id</th>
-                    <th>Nombre</th>
-                    <th>¿Es peligroso?</th>
-                </tr>
-            </thead>
-            <tbody id="results_container">
-                <tr>
-                    <td>Prueba</td>
-                </tr>
-            </tbody>
-        </table>
-    
+        <div>
+            <img class="fondo1" src="/imagenes/fondo 1.svg" alt="fondo1">
+            <img class="title" src="/imagenes/title.svg" alt="title">
+            <img class="vector_nasa" src="/vectores/Vector1.svg" alt="vector_nasa">
+            <img class="logo_nasa_vector" src="/imagenes/logo_nasa_1.svg" alt="logo_nasa_1">
+            <p class="letter_menu">MENÚ</p>
+            <img class="vector_menu" src="/vectores/Vector2.svg" alt="vector_menu">
+        </div>
+        
+        <div class="buscador">
+            <label class="texto_buscador">Inserta una fecha en el formato YYYY-mm-dd</label><br>
+            <input id="fecha" class="busca" type="text" placeholder="Ingresa la fecha" onkeyup="guardar_fecha()"> 
+            <a href="/resultado.html">
+            <button onclick="obtener_fecha(); buscar_asteriodes();" class="btn_buscar">
+                <img src="/vectores/Vector3.svg" alt="vector_busca" class="vector_busca">
+            </button>
+            </a>
+            <img src="/vectores/2025.svg" alt="numero1" class="num1">
+            <img src="/vectores/3012.svg" alt="numero2" class="num2">
+            <img src="/vectores/3048.svg" alt="numero3" class="num3">
+        </div>    
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="/script.js"></script>
-    
+        <script src="/script.js"></script>
     </body>
 </html>

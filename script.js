@@ -1,7 +1,20 @@
-let results_container = document.getElementById("results_container");
+function guardar_fecha(){
+    let fecha = document.getElementById("fecha").value
+    localStorage.setItem("fecha",fecha)
+}
+
+function obtener_fecha(){
+    let date =  localStorage.getItem("fecha")
+
+    let fecha_texto = document.getElementById("fecha_text");
+    fecha_texto.innerHTML = `${date}` 
+
+}
 
 function buscar_asteriodes() {
-    let date = document.getElementById("fecha").value
+    let date =  localStorage.getItem("fecha")
+
+    let results_container = document.getElementById("results_container");
 
     let config = {
     method: "get",
@@ -22,7 +35,6 @@ function buscar_asteriodes() {
                     <td>${objects[i].is_potentially_hazardous_asteroid}<td>
                 </tr>`
         }
-    
         results_container.innerHTML = html
     })
 }

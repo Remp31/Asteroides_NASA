@@ -1,0 +1,99 @@
+body{
+    position: absolute;
+    width: 1728px;
+    height: 1117px;
+    left: -1px;
+    top: 0px;
+
+    background: #000000;
+}
+
+.fondo_resultados{
+    position: absolute;
+    width: 1728px;
+    height: 1117px;
+    left: 1px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.fondo2{
+    position: absolute;
+    width: 694px;
+    height: 620px;
+    left: 20px;
+    top: 100px;
+}
+
+.fecha{
+    position: absolute;
+    width: 363px;
+    height: 539px;
+    left: 117px;
+    top: 237px;
+
+    font-family: 'Moonrising';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 140px;
+    line-height: 180px;
+
+    color: #DAD9D9;
+
+    opacity: 0.8;
+}
+
+.tabla{
+    position: absolute;
+    width: 1080px;
+    height: 612px;
+    left: 520px;
+    top: 203px;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.bajar_tabla{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: -3px;
+    top: -2px;
+}
+
+.btn_mostrar{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1080px;
+    top: 840px;
+    background-color: #505050;
+    border-color: #505050;
+}
+
+.btn_volver{
+    position: absolute;
+    left: 48.61%;
+    right: 49.07%;
+    top: 89.53%;
+    bottom: 6.89%;
+    opacity: 1;
+    background-color: black;
+    border-color: #000000;
+}
+.volver_principal{
+    position: absolute;
+    left: -8%;
+    top: -10%;
+    bottom: 6.89%;
+}
+
+tbody {
+    font-size: 95%;
+    font-style: italic;
+}  
+
+thead {
+    font-weight: bold;
+}

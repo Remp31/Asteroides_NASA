@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script src="https://c.webfontfree.com/c.js?f=CaviarDreams" type="text/javascript"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultados Asteroides</title>
@@ -12,7 +10,7 @@
 <body>
     <img src="/imagenes/fondo3.svg" alt="fondo_resultados" class="fondo_resultados">
     <img src="/imagenes/fondo2.svg" alt="fondo2" class="fondo2">
-    <div class="fecha">21-03-2019</div>
+    <div class="fecha" id="fecha_text"></div>
     <div class="tabla">
         <table name="resultado" class="table table-dark table-striped">
             <thead>
@@ -27,7 +25,9 @@
             </tbody>
         </table>
     </div>
-    <img src="/vectores/bajar.svg" alt="bajar_tabla" class="bajar_tabla">
+    <button class="btn_mostrar" onclick="obtener_fecha(); buscar_asteriodes();">
+        <img src="/vectores/bajar.svg" alt="bajar_tabla" class="bajar_tabla">
+    </button>
     <a href="/index.html">
         <button class="btn_volver">
             <img src="/vectores/volver.svg" alt="volver_principal" class="volver_principal">

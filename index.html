@@ -20,9 +20,9 @@
         
         <div class="buscador">
             <label class="texto_buscador">Inserta una fecha en el formato YYYY-mm-dd</label><br>
-            <input id="fecha" class="busca" type="text" placeholder="Ingresa la fecha"> 
+            <input id="fecha" class="busca" type="text" placeholder="Ingresa la fecha" onkeyup="guardar_fecha()"> 
             <a href="/resultado.html">
-            <button onclick="buscar_asteriodes()" class="btn_buscar">
+            <button onclick="obtener_fecha(); buscar_asteriodes();" class="btn_buscar">
                 <img src="/vectores/Vector3.svg" alt="vector_busca" class="vector_busca">
             </button>
             </a>
